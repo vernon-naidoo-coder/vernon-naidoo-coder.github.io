@@ -16,7 +16,7 @@ Any successful development cycle will require execution of the same test suite r
 
 ## Why automate your tests? Isn't this like torturing ourselves more?
 
-<img src="docs/assets/images/why.jpg" alt="Why?" width="400"/>
+![why](/docs/assets/images/why.jpg)
 
 **No! This has nothing to do with S&M!**
 
