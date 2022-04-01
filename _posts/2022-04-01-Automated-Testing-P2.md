@@ -3,9 +3,9 @@
 *You don't **need** to read this bit either, but it does give you a good idea of what Selenium is, Selenium components, the benefits of using Selenium and all that other good stuff. But like I said, you don't **have** to read it - you can just skip to [Part 3](/_posts/2022-04-01-Automated-Testing-P3.md) of the series...* 
 
 ---
-##### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)  
-##### *Automated Testing P2: Introduction to Selenium*  
-##### [Automated Testing P3: A quick look at the Selenium IDE](/_posts/2022-04-01-Automated-Testing-P3.md)
+#### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)  
+#### *Automated Testing P2: Introduction to Selenium*  
+#### [Automated Testing P3: A quick look at the Selenium IDE](/_posts/2022-04-01-Automated-Testing-P3.md)
 ---
 
 ## So what is this Selenium thing anyway?
