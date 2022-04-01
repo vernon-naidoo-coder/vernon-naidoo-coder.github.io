@@ -30,6 +30,8 @@ Any successful development cycle will require execution of the same test suite r
 
 ## OK. So how do we do this thing?
 
+![how](/docs/assets/images/how.png)
+
 The following steps are generally followed. 
 1. Test tool selection
 2. Define the scope of automation
@@ -71,6 +73,8 @@ This is where we execute the plan (Go Testing Team AKA The A-Team!). Remember so
 The test execution can be performed by the automation tool itself or through a Test Management tool (like Azure DevOps) which will invoke the automation tool e.g. a DevOps pipeline can be configured to execute the tests for you at 2 a.m when no-one is around to interfere!
 
 ### Test Maintenance
+
+![how](/docs/assets/images/maintain.jpg)
 
 This is when the Testing Team have to write new (automated) tests to check that any new functionality introduced in any new release **is** working as expected. The team needs to remember to ensure that these tests are written and included in the overall Test suites.
 
