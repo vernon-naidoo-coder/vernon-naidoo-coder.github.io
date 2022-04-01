@@ -4,8 +4,8 @@
 
 ---
 ###### *Automated Testing P1: What is Automated Testing*  
-
-###### [Automated Testing P2: Introduction to Selenium](/_posts/2022-04-01-Automated-Testing-P2.md)
+###### [Automated Testing P2: Introduction to Selenium](/_posts/2022-04-01-Automated-Testing-P2.md)  
+###### [Automated Testing P3: A quick look at the Selenium IDE](/_posts/2022-04-01-Automated-Testing-P3.md)
 ---
 
 ## Here is where we are...
