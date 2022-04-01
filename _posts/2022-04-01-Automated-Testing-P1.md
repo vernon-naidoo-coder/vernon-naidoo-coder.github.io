@@ -3,7 +3,8 @@
 *You don't **need** to read this bit, but it does give you a good idea of what Automated Testing is, why we do it, benefits of Automated Testing and all that other good stuff. But like I said, you don't **have** to read it - you can just skip to Part 2 of the series...* 
 
 ---
-###### [Automated Testing P1: What is Automated Testing]()
+###### *Automated Testing P1: What is Automated Testing*  
+
 ###### [Automated Testing P2: Introduction to Selenium](/_posts/2022-04-01-Automated-Testing-P2.md)
 ---
 
