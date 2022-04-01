@@ -1,11 +1,12 @@
 # Automated Testing - Introduction to Selenium
 
----
-###### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)
+*You don't **need** to read this bit either, but it does give you a good idea of what Selenium is, Selenium components, the benefits of using Selenium and all that other good stuff. But like I said, you don't **have** to read it - you can just skip to [Part 3](/_posts/2022-04-01-Automated-Testing-P3.md) of the series...* 
 
-###### *Automated Testing P2: Introduction to Selenium*
 ---
-
+###### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)  
+###### *Automated Testing P2: Introduction to Selenium*  
+###### [Automated Testing P3: A quick look at the Selenium IDE](/_posts/2022-04-01-Automated-Testing-P3.md)
+---
 
 ## So what is this Selenium thing anyway?
 We all know that testing our software is an integral part of the software development cycle, and sometimes it involves a lot of repetitive tasks (read performing some tasks over and again). So there was a need for something (some kind of tool) that could help software testers to automate these repetitive tasks. No more slogging through Regression Testing scripts over and over! ***YAY!*** One of these brilliant automation tools is **Selenium**, which allows us to automate user actions on a web application. What's better, is that it is open-source (**FREE** so your client will be ecstatic!) software that enables and supports the automation of web browsers.
