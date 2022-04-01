@@ -16,6 +16,8 @@ Any successful development cycle will require execution of the same test suite r
 
 ## Why automate your tests? Isn't this like torturing ourselves more?
 
+<img src="docs/assets/images/why.jpg" alt="Why?" width="400"/>
+
 **No! This has nothing to do with S&M!**
 
 **Test Automation** is the ***best*** way to increase the effectiveness, test coverage, and execution speed of software testing. Automated software testing makes sense due to some of the following reasons:
