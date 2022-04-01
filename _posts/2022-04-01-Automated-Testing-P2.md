@@ -1,4 +1,4 @@
-# Automated Testing - Part 2
+# Automated Testing - Introduction to Selenium
 
 ---
 ###### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)
