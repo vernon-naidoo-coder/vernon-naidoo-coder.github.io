@@ -3,6 +3,8 @@
 ## So what is this Selenium thing anyway?
 We all know that testing our software is an integral part of the software development cycle, and sometimes it involves a lot of repetitive tasks (read performing some tasks over and again). So there was a need for something (some kind of tool) that could help software testers to automate these repetitive tasks. No more slogging through Regression Testing scripts over and over! ***YAY!*** One of these brilliant automation tools is **Selenium**, which allows us to automate user actions on a web application. What's better, is that it is open-source (**FREE** so your client will be ecstatic!) software that enables and supports the automation of web browsers.
 
+<img src="/docs/assets/images/seleniumlogo.jpg" alt="Selenium Logo" width="100"/>
+
 ## An overview of Selenium Testing 
 As I said above, Selenium is an open source web automation tool. However it is not just a single product - it is a suite of products:
 
@@ -14,6 +16,8 @@ As I said above, Selenium is an open source web automation tool. However it is n
 But, in our case we will be focussing **one** of the tools viz. **Selenium WebDriver*. We will have a brief look at the *Selenium IDE* as well, but we will not delve too deeply into the latter. What Selenium does does, is that it leverages the power of web browsers and allows us to *"automate the workflow of how a user interacts with a web application within a browser"*. Simply put, it decieves the browser into believing that there is an actual human performing operations in the web application. *Cool huh?*
 
 ## The components of the Selenium suite (that are important to us)
+
+<img src="/docs/assets/images/SeleniumComponents.png" alt="Components of Selenium" width="500"/>
 
 ### Selenium IDE
 
@@ -43,6 +47,8 @@ There was a song (from the 80's, I think - giving away my age here) the had this
 While *Selenium* is one of the best test automation tools, it is not without it's flaws. We will cover these during the course of this series.
 
 ## Do I have what it takes?
+
+<img src="/docs/assets/images/whatittakes.jpg" alt="Do you have what it takes?" width="200"/>
 
 I know by now you're wondering if you have what it takes to actually get started with *Selenium*? If it can do so many things, it **must** be difficult. However, even if you have no knowledge of *Selenium*, you will be able to get the basics within a few hours. You will find it a lot easier if you hae some knowledge of the following:
 
