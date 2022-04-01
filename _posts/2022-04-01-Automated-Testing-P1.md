@@ -3,7 +3,8 @@
 *You don't **need** to read this bit, but it does give you a good idea of what Automated Testing is, why we do it, benefits of Automated Testing and all that other good stuff. But like I said, you don't **have** to read it - you can just skip to Part 2 of the series...* 
 
 ---
-[contact someone](/_posts/2022-04-01-Automated-Testing-P2.md)
+###### [Automated Testing P2: Introduction to Selenium](/_posts/2022-04-01-Automated-Testing-P2.md)
+---
 
 ## Here is where we are...
 We have new releases of the software being released every 4 weeks. We are supposed to Regression Test each release as it comes out. The client expects the Testing Team to find **all** bugs during the testing - every time! The bottom line is that it takes a team of three testers roughly 2 days (about 48 man hours) to execute the testing. However even the Testing Team is human...and humans make mistakes. This is where **Automated Testing** comes in...
