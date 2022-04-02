@@ -90,3 +90,46 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 <img src="/docs/assets/images/ide-demo-step-3.png" alt="Step 3" width="400"/>
 
+<img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
+
+**REMEMBER** The fake log in details that you enter **have to be** valid credentials for this demo to work! Also note that you will see a notice at the bottom right corner that indicates thet the *Selenium IDE is recording*. 
+
+<img src="/docs/assets/images/ide-demo-step-3-1.png" alt="Recording in progress" width="200"/>
+
+5. Now, we can verify the title of our application. To do that, right click anywhere on the page body -> select the Selenium IDE link in the context menu that appears -> select the Assert link -> select the Title link. As soon as this is done, a test step would be appended in the IDE editor.
+
+<img src="/docs/assets/images/ide-demo-step-4.png" alt="Step 4" width="200"/>
+
+6. Now you can go back to the IDE editor and click on the **Stop** icon on the top right corner. Voila! We’ve successfully recorded our test case.
+7. Once the recording is stopped, the Selenium IDE editor will look *...a little something like this...*[^1]
+
+<img src="/docs/assets/images/ide-demo-step-5.png" alt="Step 5" width="700"/>
+
+### Step 2 - Playing it back
+
+Once the recording is done, we can play it back to verify that:
+- the script executes properly
+- the browser does exactly what we did
+
+In order for us to do that, we...*click the **play** button* (on the main menu bar).
+
+<img src="/docs/assets/images/ide-demo-step-6.png" alt="Step 5" width="700"/>
+
+<img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
+
+**PITFALL** One of the most common mistakes that noobs make, is to **forget to log out** before they finish off the test. What ths actually does is that it leaves the test in an *"incomplete"* state. When you try and tun the test again, the script is going to look for the log in input box. But you're already (still) logged in! So it will never find the control that it needs. It will sit around twiddling its thumbs and then say *"Hey I've tried to find this control, but it ain't here, so I'm off to the pub! Cheers."* I hear you saying *"But we specified the base url at the start. Shouldn't the test restart from that?"* - but let's take a second to think this through. What we specified is the **base** url. When we're logged into the Facebook landing page, the base url has not changed...there's just more parameters, etc. tacked on to the end of it.    
+
+<img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
+
+**REMEMBER** If you have had to log in to perform any of the actions in your test, ensure that you log out **before** you complete your test. In that way you leave the system in a state where your tests can be repeated.
+
+If you look at the IDE, all the commands that were successfully executed will be coloured in green. The log tab at the bottom of teh IDE will display any errors that were encountered during the execution of the test script. If the test completed all the commands successfully it wil indicate that the test was successful by displaying a success message in the log.
+
+### Step 3 - Lets save this...test
+
+
+
+
+
+
+[^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
