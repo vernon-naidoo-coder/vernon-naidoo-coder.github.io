@@ -45,5 +45,18 @@ The recorded script can now be saved. The script is saved with a ".side" extensi
 
 <img src="/docs/assets/images/selenium-chrome-extension.png" alt="Selenium IDE in the Chrome Web Store" width="700"/>
 
+4. Click the extension to install it. You will be presented with the Selenium IDE install page. Click the **Add to Chrome** button to install the extension.
 
+<img src="/docs/assets/images/install-selenium-extension.png" alt="Install the Selenium IDE" width="700"/>
 
+5. Click the **Add extension** button to confirm the installation of the extension.
+
+<img src="/docs/assets/images/confirm-install.png" alt="Confirm the installation of the Selenium IDE extension" width="700"/>
+
+6. Click the **Extensions** icon in the toolbar. In the pop-up that opens, click the **pin** next to the *Selenium IDE extension*. This will add the *Selenium IDE icon* to the toolbar.
+
+<img src="/docs/assets/images/pinning-the-selenium-ide.png" alt="Pinning the Selenium IDE icon to the toolbar" width="300"/>
+
+7. Now we're ready to rock-n-roll!
+
+## Recording your first test
