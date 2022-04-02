@@ -82,9 +82,11 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 <img src="/docs/assets/images/ide-demo-step-1.png" alt="Step 1" width="400"/> 
 
-3. Next, enter the url (in the BASE URL input box) for the Facebook landing page. This url acts as the starting point for all subsequent navigation/actions in the test being recorded. Click the **START RECORDING** button.
+3. Next, enter the url (in the BASE URL input box) for the Facebook landing page. This url acts as the starting point for all subsequent navigation/actions in the test being recorded. Click the **START RECORDING** button. The IDE starts the recording by navigating to the web page.
 
 <img src="/docs/assets/images/ide-demo-step-2.png" alt="Step 2" width="400"/>
 
-4. 
+4. Once the website opens, type in the fake UserID & Password into the relevant fields and click the **Log In** button.
+
+<img src="/docs/assets/images/ide-demo-step-3.png" alt="Step 3" width="400"/>
 
