@@ -6,3 +6,44 @@
 #### *Automated Testing P3: A quick look at the Selenium IDE*
 ---
 
+## What is the Selenium IDE
+The Selenium IDE (**I**ntegrated **D**evelopment **E**nvironment) is a plugin that has been developed to be used in various browsers. It was created to speed up the creation of automation scripts. This allows for quick prototyping of scripts and is easy enoug to be used by engineers with no programming knowledge whatsoever!
+
+## So how does this thing work?
+The IDE uses three stages:
+- Recording
+- Play back
+- Saving  
+
+Easy huh?
+
+<img src="/docs/assets/images/selenium-working.jpg" alt="Selenium working principles" width="700"/>
+
+### Recording
+The IDE allows you to record all of the actions that you perform in the browser. All these (recorded) actions are saved as a test script.
+
+### Playing Back
+Once the recording is completed, it can be executed as often as you'd like. *"Why would I want to do that?"* - just to make sure that the script is making the browser do exactly what you expected it to do. Now you can measure the stability and succes rate of your test script.
+
+### Saving
+The recorded script can now be saved. The script is saved with a ".side" extension. Now you can run this script again and again for future regressions (and just to annoy your colleagues).
+
+<img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
+
+**PITFALL** Like I said before, Selenium is not without its flaws. Sometimes when you save your test, it does two things:
+- it saves it with an unintuitive name e.g. **0e0c5abd-2c69-4155-8477-f912f0c82892**. *WTF?*
+- it sometimes saves the file without an extension i.e. there is no ".side" on the end - just **0e0c5abd-2c69-4155-8477-f912f0c82892**
+
+<img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
+
+**REMEMBER** Once you save a recording as a script, check the name of the file in File Explorer. If it has a wierd name like **0e0c5abd-2c69-4155-8477-f912f0c82892**, give it a useful name like **open_google_homepage** and if it **is** missing an extension, add the ".side" on the end - like so: **open_google_homepage.side**. This way when you browse for the test script later on, the Selenium IDE will pick it up. *Hurray!*
+
+## How do I install the IDE?
+1. Open your Chrome browser.
+2. Navigate to the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
+3. Type **Selenium IDE** in the *Search the store* input box.
+
+<img src="/docs/assets/images/selenium-chrome-extension.png" alt="Selenium IDE in the Chrome Web Store" width="700"/>
+
+
+
