@@ -141,14 +141,14 @@ Once clicked, the Windows **Save** dialog will be displayed, where you can choos
 The Selenium IDE has a whole host of commands. However, we are not going into a detailed examination of them now (this article is long enough already!). Selenium commands can be broadly classified into three categories, viz. **Actions**, **Accessors** and **Assertions**.
 
 1. **Actions** - These are commands that interact directly with the web application itself.
-  1. clickAndWait()
-  2. typeAndWait()
+    1. clickAndWait()
+    2. typeAndWait()
 2. **Accessors** - These are commands that enable the user to store values to user defined variables.
-  1. storeTitle()
+    1. storeTitle()
 3. **Assertions** - These are commands that verify the current (actual) state of teh web application with an expected state.
-  1. **Assert** - this command ensures that the execution of the test will be ended in the case of a failure.
-  2. **Verify** - this command ensures that the execution of the test will continue even if a verification fails. 
-  3. **WaitFor** - this command waits for a specific condition to be true, before continuing the execution of teh next step.
+    1. **Assert** - this command ensures that the execution of the test will be ended in the case of a failure.
+    2. **Verify** - this command ensures that the execution of the test will continue even if a verification fails. 
+    3. **WaitFor** - this command waits for a specific condition to be true, before continuing the execution of teh next step.
 
 There are many more commands and features that can be found in the Selenium IDE, but those will be saved for another article. At this point you know enough to create basic tests which you can use to quickly prototype the Selenium WebDriver tests that you will be coding.
 
@@ -158,7 +158,7 @@ The Selenium IDE has some significant drawbacks when compared to tests written i
 - no support for data-driven testing
 - unable to perform database testing
 - unable to provide any reporting after test execution
-- 
+
 and the one that I found the most frustrating
 
 - learning the advanced features (variables, flow control, test reuse, etc.) of the IDE took far more time than achieving the same functionality by coding tests for Selenium WebDriver 
