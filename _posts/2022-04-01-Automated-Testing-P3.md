@@ -137,6 +137,7 @@ Once clicked, the Windows **Save** dialog will be displayed, where you can choos
 
 <img src="/docs/assets/images/selenium-commands.jpg" alt="Selenium Commands" width="400"/>
 
+
 The Selenium IDE has a whole host of commands. However, we are not going into a detailed examination of them now (this article is long enough already!). Selenium commands can be broadly classified into three categories, viz. **Actions**, **Accessors** and **Assertions**.
 
 1. **Actions** - These are commands that interact directly with the web application itself.
