@@ -30,13 +30,13 @@ The recorded script can now be saved. The script is saved with a ".side" extensi
 
 <img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
 
-**PITFALL** {#pitfall-1} Like I said before, Selenium is not without its flaws. Sometimes when you save your test, it does two things:
+**<span id="pitfall-1">PITFALL:</span>** Like I said before, Selenium is not without its flaws. Sometimes when you save your test, it does two things:
 - it saves it with an unintuitive name e.g. **0e0c5abd-2c69-4155-8477-f912f0c82892**. *WTF?*
 - it sometimes saves the file without an extension i.e. there is no ".side" on the end - just **0e0c5abd-2c69-4155-8477-f912f0c82892**
 
 <img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
 
-**REMEMBER** Once you save a recording as a script, check the name of the file in File Explorer. If it has a wierd name like **0e0c5abd-2c69-4155-8477-f912f0c82892**, give it a useful name like **open_google_homepage** and if it **is** missing an extension, add the ".side" on the end - like so: **open_google_homepage.side**. This way when you browse for the test script later on, the Selenium IDE will pick it up. *Hurray!*
+**REMEMBER:** Once you save a recording as a script, check the name of the file in File Explorer. If it has a wierd name like **0e0c5abd-2c69-4155-8477-f912f0c82892**, give it a useful name like **open_google_homepage** and if it **is** missing an extension, add the ".side" on the end - like so: **open_google_homepage.side**. This way when you browse for the test script later on, the Selenium IDE will pick it up. *Hurray!*
 
 ## How do I install the IDE?
 1. Open your Chrome browser.
@@ -71,7 +71,7 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 <img src="/docs/assets/images/definition.png" alt="Definition" width="100"/> 
 
-**DEFINITION** *Um...what does **Assert** mean?* By definition, **Assert** is *"an expression, which encapsulates some testable logic specified about a target under test"*, which is a fancy way of saying ***check that some condition (that we want to check) is true***!
+**DEFINITION:** *Um...what does **Assert** mean?* By definition, **Assert** is *"an expression, which encapsulates some testable logic specified about a target under test"*, which is a fancy way of saying ***check that some condition (that we want to check) is true***!
 
 **Onward brave coders...!**
 
@@ -92,7 +92,7 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 <img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
 
-**REMEMBER** The fake log in details that you enter **have to be** valid credentials for this demo to work! Also note that you will see a notice at the bottom right corner that indicates thet the *Selenium IDE is recording*. 
+**REMEMBER:** The fake log in details that you enter **have to be** valid credentials for this demo to work! Also note that you will see a notice at the bottom right corner that indicates thet the *Selenium IDE is recording*. 
 
 <img src="/docs/assets/images/ide-demo-step-3-1.png" alt="Recording in progress" width="200"/>
 
@@ -117,11 +117,11 @@ In order for us to do that, we...*click the **play** button* (on the main menu b
 
 <img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
 
-**PITFALL** One of the most common mistakes that noobs make, is to **forget to log out** before they finish off the test. What ths actually does is that it leaves the test in an *"incomplete"* state. When you try and tun the test again, the script is going to look for the log in input box. But you're already (still) logged in! So it will never find the control that it needs. It will sit around twiddling its thumbs and then say *"Hey I've tried to find this control, but it ain't here, so I'm off to the pub! Cheers."* I hear you saying *"But we specified the base url at the start. Shouldn't the test restart from that?"* - but let's take a second to think this through. What we specified is the **base** url. When we're logged into the Facebook landing page, the base url has not changed...there's just more parameters, etc. tacked on to the end of it.    
+**PITFALL:** One of the most common mistakes that noobs make, is to **forget to log out** before they finish off the test. What ths actually does is that it leaves the test in an *"incomplete"* state. When you try and tun the test again, the script is going to look for the log in input box. But you're already (still) logged in! So it will never find the control that it needs. It will sit around twiddling its thumbs and then say *"Hey I've tried to find this control, but it ain't here, so I'm off to the pub! Cheers."* I hear you saying *"But we specified the base url at the start. Shouldn't the test restart from that?"* - but let's take a second to think this through. What we specified is the **base** url. When we're logged into the Facebook landing page, the base url has not changed...there's just more parameters, etc. tacked on to the end of it.    
 
 <img src="/docs/assets/images/remember.png" alt="Remember" width="50"/>
 
-**REMEMBER** If you have had to log in to perform any of the actions in your test, ensure that you log out **before** you complete your test. In that way you leave the system in a state where your tests can be repeated.
+**REMEMBER:** If you have had to log in to perform any of the actions in your test, ensure that you log out **before** you complete your test. In that way you leave the system in a state where your tests can be repeated.
 
 If you look at the IDE, all the commands that were successfully executed will be coloured in green. The log tab at the bottom of teh IDE will display any errors that were encountered during the execution of the test script. If the test completed all the commands successfully it wil indicate that the test was successful by displaying a success message in the log.
 
@@ -131,6 +131,6 @@ Once you have verified that the test script has executed successfully, you can s
 
 <img src="/docs/assets/images/ide-demo-step-7.png" alt="Step 7" width="700"/>
 
-Once clicked, the Windows **Save** dialog will be displayed, where you can choose the location to ave your files. The file will (should - ref.[Pitfall 1](#pitfall-1) above) be saved with a ".side" extension. You can then select the file when performing future Regression tests, etc.
+Once clicked, the Windows **Save** dialog will be displayed, where you can choose the location to ave your files. The file will (should - ref. the <a href="#pitfall-1">Pitfall</a> above) be saved with a ".side" extension. You can then select the file when performing future Regression tests, etc.
 
 [^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
