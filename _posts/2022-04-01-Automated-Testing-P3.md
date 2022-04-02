@@ -133,4 +133,8 @@ Once you have verified that the test script has executed successfully, you can s
 
 Once clicked, the Windows **Save** dialog will be displayed, where you can choose the location to ave your files. The file will (should - ref. the <a href="#pitfall-1">Pitfall</a> above) be saved with a ".side" extension. You can then select the file when performing future Regression tests, etc.
 
+## A sneak peek at Selenium Commands
+
+<img src="/docs/assets/images/selenium-commands.jpg" alt="Selenium Commands" width="400"/>
+
 [^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
