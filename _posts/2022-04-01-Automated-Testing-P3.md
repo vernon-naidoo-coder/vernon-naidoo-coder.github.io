@@ -133,4 +133,39 @@ Once you have verified that the test script has executed successfully, you can s
 
 Once clicked, the Windows **Save** dialog will be displayed, where you can choose the location to ave your files. The file will (should - ref. the <a href="#pitfall-1">Pitfall</a> above) be saved with a ".side" extension. You can then select the file when performing future Regression tests, etc.
 
+## A sneak peek at Selenium Commands
+
+<img src="/docs/assets/images/selenium-commands.jpg" alt="Selenium Commands" width="400"/>
+
+The Selenium IDE has a whole host of commands. However, we are not going into a detailed examination of them now (this article is long enough already!). Selenium commands can be broadly classified into three categories, viz. **Actions**, **Accessors** and **Assertions**.
+
+1. **Actions** - These are commands that interact directly with the web application itself.
+  1. clickAndWait()
+  2. typeAndWait()
+2. **Accessors** - These are commands that enable the user to store values to user defined variables.
+  1. storeTitle()
+3. **Assertions** - These are commands that verify the current (actual) state of teh web application with an expected state.
+  1. **Assert** - this command ensures that the execution of the test will be ended in the case of a failure.
+  2. **Verify** - this command ensures that the execution of the test will continue even if a verification fails. 
+  3. **WaitFor** - this command waits for a specific condition to be true, before continuing the execution of teh next step.
+
+There are many more commands and features that can be found in the Selenium IDE, but those will be saved for another article. At this point you know enough to create basic tests which you can use to quickly prototype the Selenium WebDriver tests that you will be coding.
+
+## But why are we coding tests if we can just record them?
+
+The Selenium IDE has some significant drawbacks when compared to tests written in Selenium WebDriver. Some of them include:
+- no support for data-driven testing
+- unable to perform database testing
+- unable to provide any reporting after test execution
+- 
+and the one that I found the most frustrating
+
+- learning the advanced features (variables, flow control, test reuse, etc.) of the IDE took far more time than achieving the same functionality by coding tests for Selenium WebDriver 
+
+## So what now?
+
+The next part delves into Selenium WebDriver. This is where (in my opinion) things get a lot more fun (and complicated)...
+
+---
+
 [^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
