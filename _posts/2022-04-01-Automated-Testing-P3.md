@@ -60,3 +60,17 @@ The recorded script can now be saved. The script is saved with a ".side" extensi
 7. Now we're ready to rock-n-roll!
 
 ## Recording your first test
+
+Now that we're done with installing the Selenium IDE, let's take it for a test run. Here is a simple use case. We're going to the Facebook site. Login using fake credentials. Check that the title is *"Facebook"*. If we break it all down, we get: 
+
+- Navigate to https://wwww.facebook.com
+- Provide a fake UserID and Password
+- Log into Facebook using these credentials
+- Assert the title of the application
+
+
+<img src="/docs/assets/images/definition.png" alt="Definition" width="100"/> 
+
+**DEFINITION** *Um...what does **Assert** mean?* By definition, **Assert** is *"an expression, which encapsulates some testable logic specified about a target under test"*, which is a fancy way of saying ***check that some condition (that we want to check) is true***!
+
+
