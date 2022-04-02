@@ -73,4 +73,18 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 **DEFINITION** *Um...what does **Assert** mean?* By definition, **Assert** is *"an expression, which encapsulates some testable logic specified about a target under test"*, which is a fancy way of saying ***check that some condition (that we want to check) is true***!
 
+**Onward brave coders...!**
+
+### Step 1 - Recording
+
+1. Launch Chrome and open te Selenium IDE plugin (by clicking the icon in the toolbar)
+2. Select **Record a test in a new project**. Provide a name for your test, and click **OK**.
+
+<img src="/docs/assets/images/ide-demo-step-1.png" alt="Step 1" width="400"/> 
+
+3. Next, enter the url (in the BASE URL input box) for the Facebook landing page. This url acts as the starting point for all subsequent navigation/actions in the test being recorded. Click the **START RECORDING** button.
+
+<img src="/docs/assets/images/ide-demo-step-2.png" alt="Step 2" width="400"/>
+
+4. 
 
