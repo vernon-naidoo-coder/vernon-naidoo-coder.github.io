@@ -30,7 +30,7 @@ The recorded script can now be saved. The script is saved with a ".side" extensi
 
 <img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
 
-**PITFALL** Like I said before, Selenium is not without its flaws. Sometimes when you save your test, it does two things:
+**PITFALL** {#pitfall-1} Like I said before, Selenium is not without its flaws. Sometimes when you save your test, it does two things:
 - it saves it with an unintuitive name e.g. **0e0c5abd-2c69-4155-8477-f912f0c82892**. *WTF?*
 - it sometimes saves the file without an extension i.e. there is no ".side" on the end - just **0e0c5abd-2c69-4155-8477-f912f0c82892**
 
@@ -113,7 +113,7 @@ Once the recording is done, we can play it back to verify that:
 
 In order for us to do that, we...*click the **play** button* (on the main menu bar).
 
-<img src="/docs/assets/images/ide-demo-step-6.png" alt="Step 5" width="700"/>
+<img src="/docs/assets/images/ide-demo-step-6.png" alt="Step 6" width="700"/>
 
 <img src="/docs/assets/images/pitfall.png" alt="Pitfall" width="50"/>
 
@@ -127,9 +127,10 @@ If you look at the IDE, all the commands that were successfully executed will be
 
 ### Step 3 - Lets save this...test
 
+Once you have verified that the test script has executed successfully, you can save it. Click the **Save** button in the top right hand corner of the IDE.  
 
+<img src="/docs/assets/images/ide-demo-step-7.png" alt="Step 7" width="700"/>
 
-
-
+Once clicked, the Windows **Save** dialog will be displayed, where you can choose the location to ave your files. The file will (should - ref.[Pitfall 1](#pitfall-1) above) be saved with a ".side" extension. You can then select the file when performing future Regression tests, etc.
 
 [^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
