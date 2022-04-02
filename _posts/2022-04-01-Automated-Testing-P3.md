@@ -88,5 +88,5 @@ Now that we're done with installing the Selenium IDE, let's take it for a test r
 
 4. Once the website opens, type in the fake UserID & Password into the relevant fields and click the **Log In** button.
 
-<img src="/docs/assets/images/ide-demo-step-3.png" alt="Step 3" width="400"/>
+
 
