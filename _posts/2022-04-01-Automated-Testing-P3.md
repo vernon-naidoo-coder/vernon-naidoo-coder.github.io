@@ -169,4 +169,4 @@ The next part delves into Selenium WebDriver. This is where (in my opinion) thin
 
 ---
 
-[^1]: :microphone: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
+[^1]: <a href="https://www.youtube.com/watch?v=TLGWQfK-6DY" target="_blank">A little bit of Run-DMC</a>
