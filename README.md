@@ -4,7 +4,7 @@
 1. [What is Automated Testing?](_posts/2022-04-01-Automated-Testing-P1.md)
 2. [Introduction to Selenium](_posts/2022-04-01-Automated-Testing-P2.md)
 3. [A quick look at the Selenium IDE](_posts/2022-04-01-Automated-Testing-P3.md)
-4. Setting up Selenium in Visual Studio (C#)
+4. [Setting up Selenium in Visual Studio (C#)](/_posts/2022-04-03-Automated-Testing-P4.md)
 5. Coding Selenium Tests using the NUnit Framework
 6. Running (coded) Selenium tests in Edge
 7. Basic WebDriver commands in C#
