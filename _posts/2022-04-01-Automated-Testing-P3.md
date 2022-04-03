@@ -3,8 +3,8 @@
 ---
 #### [Automated Testing P1: What is Automated Testing](/_posts/2022-04-01-Automated-Testing-P1.md)  
 #### [Automated Testing P2: Introduction to Selenium](/_posts/2022-04-01-Automated-Testing-P2.md)
-#### *Automated Testing P3: A quick look at the Selenium IDE*
----
+#### *[Automated Testing P3: A quick look at the Selenium IDE]*
+#### [Automated Testing P4: Setting up Selenium in Visual Studio (C#)](/_posts/2022-04-03-Automated-Testing-P4.md)
 
 ## What is the Selenium IDE
 The Selenium IDE (**I**ntegrated **D**evelopment **E**nvironment) is a plugin that has been developed to be used in various browsers. It was created to speed up the creation of automation scripts. This allows for quick prototyping of scripts and is easy enoug to be used by engineers with no programming knowledge whatsoever!
